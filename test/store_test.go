@@ -2,9 +2,10 @@ package test
 
 import (
 	"context"
-	"lab-user-api/model"
-	"lab-user-api/store"
 	"testing"
+
+	"github.com/Angelina-Grbchh/lab-user-api/model"
+	"github.com/Angelina-Grbchh/lab-user-api/store"
 )
 
 func TestAddUser(t *testing.T) {
